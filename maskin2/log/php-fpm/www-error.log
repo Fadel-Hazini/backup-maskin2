@@ -1,0 +1,2 @@
+[21-Nov-2024 11:13:33 UTC] PHP Warning:  ftp_mkdir(): Create directory operation failed. in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 580
+[21-Nov-2024 11:13:33 UTC] PHP Warning:  ftp_rmdir(): Remove directory operation failed. in /var/www/html/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 415

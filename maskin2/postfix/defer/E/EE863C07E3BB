@@ -1,0 +1,9 @@
+
+<oliver@bedrift1.d3-101.usn>: Host or domain name not found. Name service error for name=bedrift1.d3-101.usn type=MX: Host not found, try again
+recipient=oliver@bedrift1.d3-101.usn
+offset=678
+dsn_orig_rcpt=rfc822;oliver@bedrift1.d3-101.usn
+status=4.4.3
+action=delayed
+reason=Host or domain name not found. Name service error for name=bedrift1.d3-101.usn type=MX: Host not found, try again
+

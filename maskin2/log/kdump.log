@@ -1,0 +1,70 @@
++ 2024-10-24 14:52:17 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-24 14:52:18 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-24 14:52:18 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 16:42:31 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 16:42:32 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 16:42:32 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 16:55:56 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 16:55:57 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 16:55:57 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 17:13:56 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 17:13:57 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 17:13:57 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 17:28:42 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 17:28:43 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 17:28:43 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 23:05:17 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 23:05:17 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 23:05:17 /usr/bin/kdumpctl@680: set +x
++ 2024-10-31 23:27:23 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-10-31 23:27:23 /usr/bin/kdumpctl@679: ret=0
++ 2024-10-31 23:27:23 /usr/bin/kdumpctl@680: set +x
++ 2024-11-04 08:05:10 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 mei_wdt.pretimeout=0 iTCO_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-04 08:05:11 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-04 08:05:11 /usr/bin/kdumpctl@680: set +x
++ 2024-11-04 14:34:52 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-04 14:34:53 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-04 14:34:53 /usr/bin/kdumpctl@680: set +x
++ 2024-11-08 14:38:47 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-08 14:38:48 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-08 14:38:48 /usr/bin/kdumpctl@680: set +x
++ 2024-11-14 13:30:36 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-14 13:30:37 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-14 13:30:37 /usr/bin/kdumpctl@680: set +x
++ 2024-11-14 13:54:47 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-14 13:54:48 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-14 13:54:48 /usr/bin/kdumpctl@680: set +x
++ 2024-11-14 14:16:26 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-14 14:16:27 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-14 14:16:27 /usr/bin/kdumpctl@680: set +x
++ 2024-11-15 15:34:19 /usr/bin/kdumpctl@675: /sbin/kexec -s -d -p '--command-line=BOOT_IMAGE=(hd0,msdos1)/vmlinuz-4.18.0-553.22.1.el8_10.x86_64 ro resume=/dev/mapper/rl-swap irqpoll nr_cpus=1 reset_devices cgroup_disable=memory mce=off numa=off udev.children-max=2 panic=10 rootflags=nofail acpi_no_memhotplug transparent_hugepage=never nokaslr novmcoredd hest_disable disable_cpu_apicid=0 iTCO_wdt.pretimeout=0 mei_wdt.pretimeout=0' --initrd=/boot/initramfs-4.18.0-553.22.1.el8_10.x86_64kdump.img /boot/vmlinuz-4.18.0-553.22.1.el8_10.x86_64
+Try gzip decompression.
+Try LZMA decompression.
++ 2024-11-15 15:34:20 /usr/bin/kdumpctl@679: ret=0
++ 2024-11-15 15:34:20 /usr/bin/kdumpctl@680: set +x

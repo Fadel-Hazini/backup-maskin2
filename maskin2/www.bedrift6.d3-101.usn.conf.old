@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+  ServerName www.bedrift14.d3-101.usn
+  DocumentRoot /var/www/html/wordpress
+</VirtualHost>
+
+Alias /mail /var/www/roundcube
+
+<Directory /var/www/roundcube>
+  Options FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
+
+Alias /wordpress /var/www/html/wordpress
+
+<Directory /var/www/html/wordpress>
+  Options FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>

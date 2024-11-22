@@ -1,0 +1,162 @@
+12:37:20,911 INF program: Running... losetup --list
+12:37:20,930 INF program: Running... /sbin/auditd
+12:37:20,942 DBG program: Return code: 0
+12:37:20,945 INF program: Running... dbus-daemon --print-address --syslog --config-file=/usr/share/anaconda/dbus/anaconda-bus.conf
+12:37:33,268 INF program: Running... losetup --list
+12:37:33,276 INF program: Running... Xorg -br -logfile /tmp/X.log :1 vt6 -s 1440 -ac -nolisten tcp -dpi 96 -noreset
+12:37:36,589 INF program: Running... metacity --display :1 --sm-disable
+12:37:36,618 INF program: Running... xrdb -nocpp -merge /etc/X11/Xresources
+12:37:36,663 INF program: xrdb: No such file or directory
+12:37:36,663 INF program: xrdb: can't open file '/etc/X11/Xresources'
+12:37:36,664 DBG program: Return code: 1
+12:37:36,664 INF program: Running... spice-vdagent
+12:37:36,740 DBG program: Return code: 0
+12:37:37,468 INF program: Running... udevadm settle --timeout=300
+12:37:37,492 DBG program: Return code: 0
+12:37:37,558 INF program: Running [1] mkdosfs --help ...
+12:37:37,564 INF program: stdout[1]: mkfs.fat 4.1 (2017-01-24)
+
+12:37:37,564 INF program: stderr[1]: Usage: mkfs.fat [-a][-A][-c][-C][-v][-I][-l bad-block-file][-b backup-boot-sector]
+       [-m boot-msg-file][-n volume-name][-i volume-id]
+       [-s sectors-per-cluster][-S logical-sector-size][-f number-of-FATs]
+       [-h hidden-sectors][-F fat-size][-r root-dir-entries][-R reserved-sectors]
+       [-M FAT-media-byte][-D drive_number]
+       [--invariant]
+       [--help]
+       /dev/name [blocks]
+
+12:37:37,565 INF program: ...done [1] (exit code: 0)
+12:37:37,585 INF program: Running [2] lvm version ...
+12:37:37,595 INF program: stdout[2]:   LVM version:     2.03.14(2)-RHEL8 (2021-10-20)
+  Library version: 1.02.181-RHEL8 (2021-10-20)
+  Driver version:  4.46.0
+  Configuration:   ./configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --program-prefix= --disable-dependency-tracking --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-default-dm-run-dir=/run --with-default-run-dir=/run/lvm --with-default-pid-dir=/run --with-default-locking-dir=/run/lock/lvm --with-usrlibdir=/usr/lib64 --enable-fsadm --enable-write_install --with-user= --with-group= --with-device-uid=0 --with-device-gid=6 --with-device-mode=0660 --enable-pkgconfig --enable-cmdlib --enable-dmeventd --enable-blkid_wiping --with-cluster=internal --enable-cmirrord --with-udevdir=/usr/lib/udev/rules.d --enable-udev_sync --with-thin=internal --with-cache=internal --enable-lvmpolld --enable-lvmlockd-dlm --enable-lvmlockd-dlmcontrol --enable-lvmlockd-sanlock --enable-dbus-service --enable-notify-dbus --enable-dmfilemapd --with-writecache=internal --with-vdo=internal --with-vdo-format=/usr/bin/vdoformat --with-integrity=internal --disable-silent-rules
+
+12:37:37,595 INF program: stderr[2]: 
+12:37:37,596 INF program: ...done [2] (exit code: 0)
+12:37:37,647 INF program: Running... udevadm settle --timeout=300
+12:37:37,668 DBG program: Return code: 0
+12:37:37,734 INF program: Running... systemctl start chronyd
+12:37:37,831 DBG program: Return code: 0
+12:37:41,727 INF program: Running... hwclock --hctosys --utc
+12:37:42,000 DBG program: Return code: 0
+12:37:51,569 INF program: Running... udevadm settle --timeout=300
+12:37:51,598 DBG program: Return code: 0
+12:37:51,625 INF program: Running... udevadm settle --timeout=300
+12:37:51,652 DBG program: Return code: 0
+12:37:51,791 INF program: Running... oscap info /usr/share/xml/scap/ssg/content//ssg-rl8-ds.xml
+08:37:52,602 INF program: Running... df --output=target,avail
+08:37:52,650 INF program: Mounted on           Avail
+08:37:52,650 INF program: /dev               1875428
+08:37:52,650 INF program: /dev/shm           1924244
+08:37:52,650 INF program: /run               1890812
+08:37:52,651 INF program: /sys/fs/cgroup     1924248
+08:37:52,651 INF program: /run/install/repo 12597368
+08:37:52,651 INF program: /                   845052
+08:37:52,651 INF program: /tmp               1915876
+08:37:52,651 DBG program: Return code: 0
+08:39:36,429 INF program: Running... df --output=target,avail
+08:39:36,444 INF program: Mounted on           Avail
+08:39:36,444 INF program: /dev               1875428
+08:39:36,444 INF program: /dev/shm           1924244
+08:39:36,445 INF program: /run               1890816
+08:39:36,445 INF program: /sys/fs/cgroup     1924248
+08:39:36,445 INF program: /run/install/repo 12597368
+08:39:36,445 INF program: /                   845040
+08:39:36,445 INF program: /tmp               1915856
+08:39:36,445 DBG program: Return code: 0
+08:39:38,072 INF program: Running... df --output=target,avail
+08:39:38,087 INF program: Mounted on           Avail
+08:39:38,087 INF program: /dev               1875428
+08:39:38,087 INF program: /dev/shm           1924244
+08:39:38,087 INF program: /run               1890816
+08:39:38,088 INF program: /sys/fs/cgroup     1924248
+08:39:38,088 INF program: /run/install/repo 12597368
+08:39:38,088 INF program: /                   845040
+08:39:38,088 INF program: /tmp               1915840
+08:39:38,088 DBG program: Return code: 0
+08:39:49,849 INF program: Running... df --output=target,avail
+08:39:49,863 INF program: Mounted on           Avail
+08:39:49,864 INF program: /dev               1875428
+08:39:49,864 INF program: /dev/shm           1924244
+08:39:49,864 INF program: /run               1890812
+08:39:49,864 INF program: /sys/fs/cgroup     1924248
+08:39:49,864 INF program: /run/install/repo 12597368
+08:39:49,865 INF program: /                   845032
+08:39:49,865 INF program: /tmp               1915684
+08:39:49,865 DBG program: Return code: 0
+08:39:49,957 INF program: Running... df --output=target,avail
+08:39:49,971 INF program: Mounted on           Avail
+08:39:49,972 INF program: /dev               1875428
+08:39:49,972 INF program: /dev/shm           1924244
+08:39:49,972 INF program: /run               1890812
+08:39:49,972 INF program: /sys/fs/cgroup     1924248
+08:39:49,972 INF program: /run/install/repo 12597368
+08:39:49,973 INF program: /                   845032
+08:39:49,973 INF program: /tmp               1915684
+08:39:49,973 DBG program: Return code: 0
+08:40:05,291 INF program: Running... df --output=target,avail
+08:40:05,306 INF program: Mounted on           Avail
+08:40:05,306 INF program: /dev               1875428
+08:40:05,306 INF program: /dev/shm           1924244
+08:40:05,306 INF program: /run               1890812
+08:40:05,307 INF program: /sys/fs/cgroup     1924248
+08:40:05,307 INF program: /run/install/repo 12597368
+08:40:05,307 INF program: /                   845032
+08:40:05,307 INF program: /tmp               1915680
+08:40:05,307 DBG program: Return code: 0
+08:40:21,453 INF program: Running... nm-connection-editor --keep-above --edit c39663cc-de08-4528-95b2-54be6b4e5247
+08:40:38,923 INF program: Running... df --output=target,avail
+08:40:38,938 INF program: Mounted on           Avail
+08:40:38,938 INF program: /dev               1875428
+08:40:38,938 INF program: /dev/shm           1924244
+08:40:38,939 INF program: /run               1890812
+08:40:38,939 INF program: /sys/fs/cgroup     1924248
+08:40:38,939 INF program: /run/install/repo 12597368
+08:40:38,939 INF program: /                   844996
+08:40:38,939 INF program: /tmp               1915676
+08:40:38,939 DBG program: Return code: 0
+08:40:42,775 INF program: Running... hwclock --systohc --utc
+08:40:43,500 DBG program: Return code: 0
+08:40:57,604 INF program: Running... systemd-detect-virt
+08:40:57,645 INF program: none
+08:40:57,646 DBG program: Return code: 1
+08:40:58,046 INF program: Running... df --output=target,avail
+08:40:58,063 INF program: Mounted on              Avail
+08:40:58,063 INF program: /dev                  1875428
+08:40:58,064 INF program: /dev/shm              1924236
+08:40:58,064 INF program: /run                  1890800
+08:40:58,064 INF program: /sys/fs/cgroup        1924248
+08:40:58,064 INF program: /run/install/repo    12597368
+08:40:58,064 INF program: /                      844648
+08:40:58,064 INF program: /tmp                  1915120
+08:40:58,064 INF program: /mnt/sysroot         72819624
+08:40:58,065 INF program: /mnt/sysroot/boot      998044
+08:40:58,065 INF program: /mnt/sysroot/dev/shm  1924248
+08:40:58,065 INF program: /mnt/sysroot/home    77243148
+08:40:58,065 DBG program: Return code: 0
+08:40:58,153 INF program: Running... df --output=target,avail
+08:40:58,169 INF program: Mounted on              Avail
+08:40:58,170 INF program: /dev                  1875428
+08:40:58,170 INF program: /dev/shm              1924236
+08:40:58,170 INF program: /run                  1890800
+08:40:58,170 INF program: /sys/fs/cgroup        1924248
+08:40:58,170 INF program: /run/install/repo    12597368
+08:40:58,171 INF program: /                      844648
+08:40:58,171 INF program: /tmp                  1915116
+08:40:58,171 INF program: /mnt/sysroot         72819624
+08:40:58,171 INF program: /mnt/sysroot/boot      998044
+08:40:58,171 INF program: /mnt/sysroot/dev/shm  1924248
+08:40:58,171 INF program: /mnt/sysroot/home    77243148
+08:40:58,171 DBG program: Return code: 0
+08:50:13,548 INF program: Running in chroot '/mnt/sysroot'... systemctl enable kdump.service
+08:50:13,568 DBG program: Return code: 0
+08:50:13,935 INF program: Running in chroot '/mnt/sysroot'... depmod -a 4.18.0-553.el8_10.x86_64
+08:50:26,502 DBG program: Return code: 0
+08:50:26,503 INF program: Running in chroot '/mnt/sysroot'... dracut -f /boot/initramfs-4.18.0-553.el8_10.x86_64.img 4.18.0-553.el8_10.x86_64
+08:50:56,931 DBG program: Return code: 0
+08:50:57,000 INF program: Running in chroot '/mnt/sysroot'... /bin/sh /tmp/ks-script-elup4k1z
+08:50:59,638 DBG program: Return code: 0
+08:50:59,639 INF program: Running... /bin/sh /tmp/ks-script-47ib8odo
+08:50:59,655 DBG program: Return code: 0
+08:50:59,656 INF program: Running... /bin/sh /tmp/ks-script-sji3fx3g

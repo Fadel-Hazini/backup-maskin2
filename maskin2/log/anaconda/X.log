@@ -1,0 +1,445 @@
+[    46.426] (WW) Failed to open protocol names file /usr/lib64/xorg/protocol.txt
+[    46.426] 
+X.Org X Server 1.20.11
+X Protocol Version 11, Revision 0
+[    46.426] Build Operating System:  4.18.0-513.18.1.el8_9.x86_64 
+[    46.426] Current Operating System: Linux localhost.localdomain 4.18.0-553.el8_10.x86_64 #1 SMP Fri May 24 13:05:10 UTC 2024 x86_64
+[    46.426] Kernel command line: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.repo=hd:LABEL=ROCKY-8-10- quiet
+[    46.426] Build Date: 04 April 2024  02:55:46PM
+[    46.426] Build ID: xorg-x11-server 1.20.11-23.el8_10 
+[    46.426] Current version of pixman: 0.38.4
+[    46.426] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    46.426] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    46.426] (++) Log file: "/tmp/X.log", Time: Thu Oct 24 12:37:33 2024
+[    46.427] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    46.427] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    46.433] (==) No Layout section.  Using the first Screen section.
+[    46.433] (==) No screen section available. Using defaults.
+[    46.433] (**) |-->Screen "Default Screen Section" (0)
+[    46.433] (**) |   |-->Monitor "<default monitor>"
+[    46.433] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    46.433] (==) Automatically adding devices
+[    46.433] (==) Automatically enabling devices
+[    46.433] (==) Automatically adding GPU devices
+[    46.433] (==) Automatically binding GPU devices
+[    46.433] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    46.433] (==) FontPath set to:
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    46.433] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    46.433] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    46.433] (II) Loader magic: 0x55a9e5336020
+[    46.433] (II) Module ABI versions:
+[    46.433] 	X.Org ANSI C Emulation: 0.4
+[    46.433] 	X.Org Video Driver: 24.1
+[    46.433] 	X.Org XInput driver : 24.1
+[    46.433] 	X.Org Server Extension : 10.0
+[    46.434] (++) using VT number 6
+
+[    46.434] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    46.435] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    46.435] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    46.448] (--) PCI:*(0@0:2:0) 8086:2e12:1028:0420 rev 3, Mem @ 0xf7c00000/4194304, 0xe0000000/268435456, I/O @ 0x0000ecb0/8, BIOS @ 0x????????/65536
+[    46.448] (--) PCI: (0@0:2:1) 8086:2e13:1028:0420 rev 3, Mem @ 0xf7b00000/1048576, BIOS @ 0x????????/65536
+[    46.448] (II) LoadModule: "glx"
+[    46.449] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    46.479] (II) Module glx: vendor="X.Org Foundation"
+[    46.479] 	compiled for 1.20.11, module version = 1.0.0
+[    46.479] 	ABI class: X.Org Server Extension, version 10.0
+[    46.479] (==) Matched modesetting as autoconfigured driver 0
+[    46.479] (==) Matched fbdev as autoconfigured driver 1
+[    46.479] (==) Matched vesa as autoconfigured driver 2
+[    46.479] (==) Assigned the driver to the xf86ConfigLayout
+[    46.479] (II) LoadModule: "modesetting"
+[    46.479] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    46.496] (II) Module modesetting: vendor="X.Org Foundation"
+[    46.496] 	compiled for 1.20.11, module version = 1.20.11
+[    46.496] 	Module class: X.Org Video Driver
+[    46.496] 	ABI class: X.Org Video Driver, version 24.1
+[    46.496] (II) LoadModule: "fbdev"
+[    46.496] (II) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    46.504] (II) Module fbdev: vendor="X.Org Foundation"
+[    46.504] 	compiled for 1.20.8, module version = 0.5.0
+[    46.504] 	Module class: X.Org Video Driver
+[    46.504] 	ABI class: X.Org Video Driver, version 24.1
+[    46.504] (II) LoadModule: "vesa"
+[    46.504] (II) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    46.504] (II) Module vesa: vendor="X.Org Foundation"
+[    46.504] 	compiled for 1.20.8, module version = 2.4.0
+[    46.504] 	Module class: X.Org Video Driver
+[    46.504] 	ABI class: X.Org Video Driver, version 24.1
+[    46.504] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    46.504] (II) FBDEV: driver for framebuffer: fbdev
+[    46.504] (II) VESA: driver for VESA chipsets: vesa
+[    46.527] (II) modeset(0): using drv /dev/dri/card0
+[    46.527] (WW) Falling back to old probe method for fbdev
+[    46.527] (II) Loading sub module "fbdevhw"
+[    46.527] (II) LoadModule: "fbdevhw"
+[    46.528] (II) Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    46.535] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    46.535] 	compiled for 1.20.11, module version = 0.0.2
+[    46.535] 	ABI class: X.Org Video Driver, version 24.1
+[    46.535] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    46.535] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    46.535] (==) modeset(0): RGB weight 888
+[    46.535] (==) modeset(0): Default visual is TrueColor
+[    46.535] (II) Loading sub module "glamoregl"
+[    46.535] (II) LoadModule: "glamoregl"
+[    46.535] (II) Loading /usr/lib64/xorg/modules/libglamoregl.so
+[    46.553] (II) Module glamoregl: vendor="X.Org Foundation"
+[    46.553] 	compiled for 1.20.11, module version = 1.0.1
+[    46.553] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    48.783] (II) modeset(0): glamor X acceleration enabled on Mesa Intel(R) Q45/Q43 (ELK)
+[    48.783] (II) modeset(0): glamor initialized
+[    48.872] (II) modeset(0): Output VGA-1 has no monitor section
+[    48.873] (II) modeset(0): Output HDMI-1 has no monitor section
+[    48.873] (II) modeset(0): Output DP-1 has no monitor section
+[    48.974] (II) modeset(0): EDID for output VGA-1
+[    48.974] (II) modeset(0): Printing probed modes for output VGA-1
+[    48.974] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    48.974] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    48.974] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    48.974] (II) modeset(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[    48.974] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    48.975] (II) modeset(0): EDID for output HDMI-1
+[    48.975] (II) modeset(0): EDID for output DP-1
+[    48.975] (II) modeset(0): Output VGA-1 connected
+[    48.975] (II) modeset(0): Output HDMI-1 disconnected
+[    48.975] (II) modeset(0): Output DP-1 disconnected
+[    48.975] (II) modeset(0): Using exact sizes for initial modes
+[    48.975] (II) modeset(0): Output VGA-1 using initial mode 1024x768 +0+0
+[    48.975] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    48.975] (++) modeset(0): DPI set to (96, 96)
+[    48.975] (II) Loading sub module "fb"
+[    48.975] (II) LoadModule: "fb"
+[    48.975] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    48.981] (II) Module fb: vendor="X.Org Foundation"
+[    48.981] 	compiled for 1.20.11, module version = 1.0.0
+[    48.981] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    48.981] (II) UnloadModule: "fbdev"
+[    48.981] (II) Unloading fbdev
+[    48.981] (II) UnloadSubModule: "fbdevhw"
+[    48.981] (II) Unloading fbdevhw
+[    48.981] (II) UnloadModule: "vesa"
+[    48.981] (II) Unloading vesa
+[    49.203] (==) modeset(0): Backing store enabled
+[    49.203] (==) modeset(0): Silken mouse enabled
+[    49.219] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    49.219] (==) modeset(0): DPMS enabled
+[    49.219] (II) modeset(0): [DRI2] Setup complete
+[    49.219] (II) modeset(0): [DRI2]   DRI driver: crocus
+[    49.219] (II) modeset(0): [DRI2]   VDPAU driver: crocus
+[    49.219] (II) Initializing extension Generic Event Extension
+[    49.219] (II) Initializing extension SHAPE
+[    49.219] (II) Initializing extension MIT-SHM
+[    49.219] (II) Initializing extension XInputExtension
+[    49.220] (II) Initializing extension XTEST
+[    49.220] (II) Initializing extension BIG-REQUESTS
+[    49.220] (II) Initializing extension SYNC
+[    49.220] (II) Initializing extension XKEYBOARD
+[    49.220] (II) Initializing extension XC-MISC
+[    49.220] (II) Initializing extension SECURITY
+[    49.220] (II) Initializing extension XFIXES
+[    49.220] (II) Initializing extension RENDER
+[    49.220] (II) Initializing extension RANDR
+[    49.220] (II) Initializing extension COMPOSITE
+[    49.220] (II) Initializing extension DAMAGE
+[    49.220] (II) Initializing extension MIT-SCREEN-SAVER
+[    49.220] (II) Initializing extension DOUBLE-BUFFER
+[    49.220] (II) Initializing extension RECORD
+[    49.220] (II) Initializing extension DPMS
+[    49.220] (II) Initializing extension Present
+[    49.220] (II) Initializing extension DRI3
+[    49.220] (II) Initializing extension X-Resource
+[    49.220] (II) Initializing extension XVideo
+[    49.220] (II) Initializing extension XVideo-MotionCompensation
+[    49.220] (II) Initializing extension SELinux
+[    49.220] (II) SELinux: Disabled by boolean
+[    49.220] (II) Initializing extension GLX
+[    49.227] (II) AIGLX: Loaded and initialized crocus
+[    49.227] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    49.227] (II) Initializing extension XFree86-VidModeExtension
+[    49.227] (II) Initializing extension XFree86-DGA
+[    49.227] (II) Initializing extension XFree86-DRI
+[    49.227] (II) Initializing extension DRI2
+[    49.227] (II) modeset(0): Damage tracking initialized
+[    49.227] (II) modeset(0): Setting screen physical size to 270 x 203
+[    49.356] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    49.356] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    49.356] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    49.356] (II) LoadModule: "libinput"
+[    49.356] (II) Loading /usr/lib64/xorg/modules/input/libinput_drv.so
+[    49.372] (II) Module libinput: vendor="X.Org Foundation"
+[    49.372] 	compiled for 1.20.8, module version = 0.29.0
+[    49.372] 	Module class: X.Org XInput Driver
+[    49.372] 	ABI class: X.Org XInput driver, version 24.1
+[    49.372] (II) Using input driver 'libinput' for 'Power Button'
+[    49.372] (**) Power Button: always reports core events
+[    49.372] (**) Option "Device" "/dev/input/event1"
+[    49.372] (**) Option "_source" "server/udev"
+[    49.388] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    49.388] (II) event1  - Power Button: device is a keyboard
+[    49.388] (II) event1  - Power Button: device removed
+[    49.397] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[    49.397] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    49.398] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    49.398] (II) event1  - Power Button: device is a keyboard
+[    49.398] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    49.398] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    49.398] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    49.398] (II) Using input driver 'libinput' for 'Power Button'
+[    49.398] (**) Power Button: always reports core events
+[    49.398] (**) Option "Device" "/dev/input/event0"
+[    49.398] (**) Option "_source" "server/udev"
+[    49.399] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    49.399] (II) event0  - Power Button: device is a keyboard
+[    49.399] (II) event0  - Power Button: device removed
+[    49.407] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[    49.407] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    49.408] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    49.408] (II) event0  - Power Button: device is a keyboard
+[    49.409] (II) config/udev: Adding input device PixArt HP 320M USB Optical Mouse (/dev/input/event2)
+[    49.409] (**) PixArt HP 320M USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[    49.409] (**) PixArt HP 320M USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[    49.409] (II) Using input driver 'libinput' for 'PixArt HP 320M USB Optical Mouse'
+[    49.409] (**) PixArt HP 320M USB Optical Mouse: always reports core events
+[    49.409] (**) Option "Device" "/dev/input/event2"
+[    49.409] (**) Option "_source" "server/udev"
+[    49.462] (II) event2  - PixArt HP 320M USB Optical Mouse: is tagged by udev as: Mouse
+[    49.462] (II) event2  - PixArt HP 320M USB Optical Mouse: device is a pointer
+[    49.462] (II) event2  - PixArt HP 320M USB Optical Mouse: device removed
+[    49.478] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb7/7-2/7-2:1.0/0003:04F2:4141.0001/input/input5/event2"
+[    49.478] (II) XINPUT: Adding extended input device "PixArt HP 320M USB Optical Mouse" (type: MOUSE, id 8)
+[    49.478] (**) Option "AccelerationScheme" "none"
+[    49.478] (**) PixArt HP 320M USB Optical Mouse: (accel) selected scheme none/0
+[    49.478] (**) PixArt HP 320M USB Optical Mouse: (accel) acceleration factor: 2.000
+[    49.478] (**) PixArt HP 320M USB Optical Mouse: (accel) acceleration threshold: 4
+[    49.531] (II) event2  - PixArt HP 320M USB Optical Mouse: is tagged by udev as: Mouse
+[    49.531] (II) event2  - PixArt HP 320M USB Optical Mouse: device is a pointer
+[    49.532] (II) config/udev: Adding input device PixArt HP 320M USB Optical Mouse (/dev/input/mouse0)
+[    49.532] (II) No input driver specified, ignoring this device.
+[    49.532] (II) This device may have been added with another device file.
+[    49.533] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard (/dev/input/event3)
+[    49.533] (**) Darfon HP Wired Desktop 320K Keyboard: Applying InputClass "evdev keyboard catchall"
+[    49.533] (**) Darfon HP Wired Desktop 320K Keyboard: Applying InputClass "libinput keyboard catchall"
+[    49.533] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard'
+[    49.533] (**) Darfon HP Wired Desktop 320K Keyboard: always reports core events
+[    49.533] (**) Option "Device" "/dev/input/event3"
+[    49.533] (**) Option "_source" "server/udev"
+[    49.534] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: is tagged by udev as: Keyboard
+[    49.534] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device is a keyboard
+[    49.534] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device removed
+[    49.544] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.0/0003:0D62:3F41.0002/input/input6/event3"
+[    49.544] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard" (type: KEYBOARD, id 9)
+[    49.545] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: is tagged by udev as: Keyboard
+[    49.545] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device is a keyboard
+[    49.546] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard Consumer Control (/dev/input/event4)
+[    49.546] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "evdev keyboard catchall"
+[    49.546] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    49.546] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard Consumer Control'
+[    49.546] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: always reports core events
+[    49.546] (**) Option "Device" "/dev/input/event4"
+[    49.546] (**) Option "_source" "server/udev"
+[    49.548] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    49.548] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device is a keyboard
+[    49.548] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device removed
+[    49.558] (II) libinput: Darfon HP Wired Desktop 320K Keyboard Consumer Control: needs a virtual subdevice
+[    49.558] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input7/event4"
+[    49.558] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard Consumer Control" (type: MOUSE, id 10)
+[    49.558] (**) Option "AccelerationScheme" "none"
+[    49.558] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) selected scheme none/0
+[    49.558] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[    49.558] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) acceleration threshold: 4
+[    49.559] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    49.559] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device is a keyboard
+[    49.560] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard System Control (/dev/input/event5)
+[    49.560] (**) Darfon HP Wired Desktop 320K Keyboard System Control: Applying InputClass "evdev keyboard catchall"
+[    49.560] (**) Darfon HP Wired Desktop 320K Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[    49.560] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard System Control'
+[    49.560] (**) Darfon HP Wired Desktop 320K Keyboard System Control: always reports core events
+[    49.560] (**) Option "Device" "/dev/input/event5"
+[    49.560] (**) Option "_source" "server/udev"
+[    49.562] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: is tagged by udev as: Keyboard
+[    49.562] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device is a keyboard
+[    49.562] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device removed
+[    49.572] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input8/event5"
+[    49.572] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard System Control" (type: KEYBOARD, id 11)
+[    49.573] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: is tagged by udev as: Keyboard
+[    49.573] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device is a keyboard
+[    49.574] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event7)
+[    49.574] (**) Dell WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[    49.574] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    49.574] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[    49.574] (**) Dell WMI hotkeys: always reports core events
+[    49.574] (**) Option "Device" "/dev/input/event7"
+[    49.574] (**) Option "_source" "server/udev"
+[    49.575] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    49.575] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[    49.575] (II) event7  - Dell WMI hotkeys: device removed
+[    49.592] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input10/event7"
+[    49.592] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 12)
+[    49.593] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    49.593] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[    49.593] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[    49.593] (II) No input driver specified, ignoring this device.
+[    49.593] (II) This device may have been added with another device file.
+[    49.603] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "evdev keyboard catchall"
+[    49.603] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    49.604] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard Consumer Control'
+[    49.604] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: always reports core events
+[    49.604] (**) Option "Device" "/dev/input/event4"
+[    49.604] (**) Option "_source" "_driver/libinput"
+[    49.604] (II) libinput: Darfon HP Wired Desktop 320K Keyboard Consumer Control: is a virtual subdevice
+[    49.604] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input7/event4"
+[    49.604] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard Consumer Control" (type: KEYBOARD, id 13)
+[   478.148] (II) config/udev: removing device Power Button
+[   478.149] (II) event0  - Power Button: device removed
+[   478.153] (II) UnloadModule: "libinput"
+[   478.153] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   478.153] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   478.153] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   478.153] (II) Using input driver 'libinput' for 'Power Button'
+[   478.153] (**) Power Button: always reports core events
+[   478.153] (**) Option "Device" "/dev/input/event0"
+[   478.153] (**) Option "_source" "server/udev"
+[   478.154] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   478.154] (II) event0  - Power Button: device is a keyboard
+[   478.155] (II) event0  - Power Button: device removed
+[   478.159] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   478.159] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   478.160] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   478.160] (II) event0  - Power Button: device is a keyboard
+[   478.160] (II) config/udev: removing device Power Button
+[   478.161] (II) event1  - Power Button: device removed
+[   478.166] (II) UnloadModule: "libinput"
+[   478.166] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   478.166] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   478.166] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   478.166] (II) Using input driver 'libinput' for 'Power Button'
+[   478.166] (**) Power Button: always reports core events
+[   478.166] (**) Option "Device" "/dev/input/event1"
+[   478.166] (**) Option "_source" "server/udev"
+[   478.167] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   478.167] (II) event1  - Power Button: device is a keyboard
+[   478.167] (II) event1  - Power Button: device removed
+[   478.172] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[   478.172] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   478.173] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[   478.173] (II) event1  - Power Button: device is a keyboard
+[   478.187] (II) config/udev: Adding input device PixArt HP 320M USB Optical Mouse (/dev/input/mouse0)
+[   478.188] (II) No input driver specified, ignoring this device.
+[   478.188] (II) This device may have been added with another device file.
+[   478.191] (II) config/udev: removing device Darfon HP Wired Desktop 320K Keyboard System Control
+[   478.191] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device removed
+[   478.198] (II) UnloadModule: "libinput"
+[   478.199] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard System Control (/dev/input/event5)
+[   478.199] (**) Darfon HP Wired Desktop 320K Keyboard System Control: Applying InputClass "evdev keyboard catchall"
+[   478.199] (**) Darfon HP Wired Desktop 320K Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[   478.199] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard System Control'
+[   478.199] (**) Darfon HP Wired Desktop 320K Keyboard System Control: always reports core events
+[   478.199] (**) Option "Device" "/dev/input/event5"
+[   478.199] (**) Option "_source" "server/udev"
+[   478.200] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: is tagged by udev as: Keyboard
+[   478.200] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device is a keyboard
+[   478.201] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device removed
+[   478.206] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input8/event5"
+[   478.206] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard System Control" (type: KEYBOARD, id 11)
+[   478.207] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: is tagged by udev as: Keyboard
+[   478.208] (II) event5  - Darfon HP Wired Desktop 320K Keyboard System Control: device is a keyboard
+[   478.208] (II) config/udev: removing device Darfon HP Wired Desktop 320K Keyboard Consumer Control
+[   478.209] (II) UnloadModule: "libinput"
+[   478.209] (II) config/udev: removing device Darfon HP Wired Desktop 320K Keyboard Consumer Control
+[   478.209] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device removed
+[   478.213] (II) UnloadModule: "libinput"
+[   478.213] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard Consumer Control (/dev/input/event4)
+[   478.213] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "evdev keyboard catchall"
+[   478.213] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   478.213] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard Consumer Control'
+[   478.214] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: always reports core events
+[   478.214] (**) Option "Device" "/dev/input/event4"
+[   478.214] (**) Option "_source" "server/udev"
+[   478.215] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: is tagged by udev as: Keyboard
+[   478.215] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device is a keyboard
+[   478.215] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device removed
+[   478.219] (II) libinput: Darfon HP Wired Desktop 320K Keyboard Consumer Control: needs a virtual subdevice
+[   478.219] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input7/event4"
+[   478.219] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard Consumer Control" (type: MOUSE, id 10)
+[   478.219] (**) Option "AccelerationScheme" "none"
+[   478.219] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) selected scheme none/0
+[   478.219] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[   478.219] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: (accel) acceleration threshold: 4
+[   478.220] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: is tagged by udev as: Keyboard
+[   478.220] (II) event4  - Darfon HP Wired Desktop 320K Keyboard Consumer Control: device is a keyboard
+[   478.226] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "evdev keyboard catchall"
+[   478.226] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[   478.226] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard Consumer Control'
+[   478.226] (**) Darfon HP Wired Desktop 320K Keyboard Consumer Control: always reports core events
+[   478.226] (**) Option "Device" "/dev/input/event4"
+[   478.226] (**) Option "_source" "_driver/libinput"
+[   478.226] (II) libinput: Darfon HP Wired Desktop 320K Keyboard Consumer Control: is a virtual subdevice
+[   478.226] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.1/0003:0D62:3F41.0003/input/input7/event4"
+[   478.226] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard Consumer Control" (type: KEYBOARD, id 13)
+[   478.227] (II) config/udev: removing device PixArt HP 320M USB Optical Mouse
+[   478.227] (II) event2  - PixArt HP 320M USB Optical Mouse: device removed
+[   478.238] (II) UnloadModule: "libinput"
+[   478.238] (II) config/udev: Adding input device PixArt HP 320M USB Optical Mouse (/dev/input/event2)
+[   478.238] (**) PixArt HP 320M USB Optical Mouse: Applying InputClass "evdev pointer catchall"
+[   478.238] (**) PixArt HP 320M USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[   478.238] (II) Using input driver 'libinput' for 'PixArt HP 320M USB Optical Mouse'
+[   478.238] (**) PixArt HP 320M USB Optical Mouse: always reports core events
+[   478.238] (**) Option "Device" "/dev/input/event2"
+[   478.238] (**) Option "_source" "server/udev"
+[   478.292] (II) event2  - PixArt HP 320M USB Optical Mouse: is tagged by udev as: Mouse
+[   478.292] (II) event2  - PixArt HP 320M USB Optical Mouse: device is a pointer
+[   478.292] (II) event2  - PixArt HP 320M USB Optical Mouse: device removed
+[   478.305] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb7/7-2/7-2:1.0/0003:04F2:4141.0001/input/input5/event2"
+[   478.305] (II) XINPUT: Adding extended input device "PixArt HP 320M USB Optical Mouse" (type: MOUSE, id 8)
+[   478.305] (**) Option "AccelerationScheme" "none"
+[   478.305] (**) PixArt HP 320M USB Optical Mouse: (accel) selected scheme none/0
+[   478.305] (**) PixArt HP 320M USB Optical Mouse: (accel) acceleration factor: 2.000
+[   478.305] (**) PixArt HP 320M USB Optical Mouse: (accel) acceleration threshold: 4
+[   478.358] (II) event2  - PixArt HP 320M USB Optical Mouse: is tagged by udev as: Mouse
+[   478.358] (II) event2  - PixArt HP 320M USB Optical Mouse: device is a pointer
+[   478.359] (II) config/udev: removing device Darfon HP Wired Desktop 320K Keyboard
+[   478.359] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device removed
+[   478.367] (II) UnloadModule: "libinput"
+[   478.367] (II) config/udev: Adding input device Darfon HP Wired Desktop 320K Keyboard (/dev/input/event3)
+[   478.367] (**) Darfon HP Wired Desktop 320K Keyboard: Applying InputClass "evdev keyboard catchall"
+[   478.367] (**) Darfon HP Wired Desktop 320K Keyboard: Applying InputClass "libinput keyboard catchall"
+[   478.367] (II) Using input driver 'libinput' for 'Darfon HP Wired Desktop 320K Keyboard'
+[   478.367] (**) Darfon HP Wired Desktop 320K Keyboard: always reports core events
+[   478.367] (**) Option "Device" "/dev/input/event3"
+[   478.367] (**) Option "_source" "server/udev"
+[   478.369] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: is tagged by udev as: Keyboard
+[   478.369] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device is a keyboard
+[   478.369] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device removed
+[   478.377] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.2/usb8/8-1/8-1:1.0/0003:0D62:3F41.0002/input/input6/event3"
+[   478.377] (II) XINPUT: Adding extended input device "Darfon HP Wired Desktop 320K Keyboard" (type: KEYBOARD, id 9)
+[   478.378] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: is tagged by udev as: Keyboard
+[   478.378] (II) event3  - Darfon HP Wired Desktop 320K Keyboard: device is a keyboard
+[   478.380] (II) config/udev: removing device Dell WMI hotkeys
+[   478.380] (II) event7  - Dell WMI hotkeys: device removed
+[   478.393] (II) UnloadModule: "libinput"
+[   478.393] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event7)
+[   478.393] (**) Dell WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[   478.393] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[   478.393] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[   478.393] (**) Dell WMI hotkeys: always reports core events
+[   478.393] (**) Option "Device" "/dev/input/event7"
+[   478.393] (**) Option "_source" "server/udev"
+[   478.394] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[   478.394] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[   478.395] (II) event7  - Dell WMI hotkeys: device removed
+[   478.407] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input10/event7"
+[   478.407] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 12)
+[   478.408] (II) event7  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[   478.408] (II) event7  - Dell WMI hotkeys: device is a keyboard
+[   478.409] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[   478.409] (II) No input driver specified, ignoring this device.
+[   478.409] (II) This device may have been added with another device file.

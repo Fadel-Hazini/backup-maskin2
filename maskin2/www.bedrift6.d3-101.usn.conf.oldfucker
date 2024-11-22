@@ -1,0 +1,22 @@
+<VirtualHost *:443>
+  ServerName www.bedrift14.d3-101.usn
+  DocumentRoot /var/www/html/wordpress
+
+  SSLEngine on
+  SSLCertificateFile /etc/ssl/certs/www.bedrift6.d3-101.usn.crt
+  SSLCertificateKeyFile /etc/ssl/private/www.bedrift6.d3-101.usn.pem
+
+  <Directory /var/www/html/wordpress>
+	AllowOverride All
+	Require all granted
+  </Directory>	
+</VirtualHost>
+
+Alias /mail /var/www/roundcube
+
+<Directory /var/www/roundcube>
+  Options FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
+

@@ -1,0 +1,117 @@
+2024-11-15 15:33:18 0 [Note] /usr/libexec/mysqld (initiated by: unknown): Normal shutdown
+2024-11-15 15:33:18 0 [Note] Event Scheduler: Purging the queue. 0 events
+2024-11-15 15:33:18 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-11-15 15:33:18 0 [Note] InnoDB: Starting shutdown...
+2024-11-15 15:33:18 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2024-11-15 15:33:18 0 [Note] InnoDB: Buffer pool(s) dump completed at 241115 15:33:18
+2024-11-15 15:33:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-11-15 15:33:19 0 [Note] InnoDB: Shutdown completed; log sequence number 10589292; transaction id 5014
+2024-11-15 15:33:19 0 [Note] /usr/libexec/mysqld: Shutdown complete
+
+2024-11-15 15:34:13 0 [Note] Starting MariaDB 10.3.39-MariaDB source revision ca001cf2048f0152689e1895e2dc15486dd0b1af as process 869
+2024-11-15 15:34:15 0 [Note] InnoDB: Using Linux native AIO
+2024-11-15 15:34:15 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-11-15 15:34:15 0 [Note] InnoDB: Uses event mutexes
+2024-11-15 15:34:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-11-15 15:34:15 0 [Note] InnoDB: Number of pools: 1
+2024-11-15 15:34:15 0 [Note] InnoDB: Using generic crc32 instructions
+2024-11-15 15:34:15 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-11-15 15:34:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-11-15 15:34:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-11-15 15:34:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-11-15 15:34:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-11-15 15:34:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-11-15 15:34:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-11-15 15:34:17 0 [Note] InnoDB: Waiting for purge to start
+2024-11-15 15:34:17 0 [Note] InnoDB: 10.3.39 started; log sequence number 10589292; transaction id 5010
+2024-11-15 15:34:17 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2024-11-15 15:34:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-11-15 15:34:17 0 [Warning] mysqld: GSSAPI plugin : default principal 'mariadb/maskin2@' not found in keytab
+2024-11-15 15:34:17 0 [ERROR] mysqld: Server GSSAPI error (major 851968, minor 2529639093) : gss_acquire_cred failed -Unspecified GSS failure.  Minor code may provide more information. Keytab FILE:/etc/krb5.keytab is nonexistent or empty. 
+2024-11-15 15:34:17 0 [ERROR] Plugin 'gssapi' init function returned error.
+2024-11-15 15:34:18 0 [Note] InnoDB: Buffer pool(s) load completed at 241115 15:34:18
+2024-11-15 15:34:18 0 [Note] Server socket created on IP: '::'.
+2024-11-15 15:34:18 0 [Note] Reading of all Master_info entries succeeded
+2024-11-15 15:34:18 0 [Note] Added new Master_info '' to hash table
+2024-11-15 15:34:18 0 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '10.3.39-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Running threads: 5  Cached threads: 0  Stack size: 299008
+
+Key caches:
+default
+Buffer_size:     134217728
+Block_size:           1024
+Division_limit:        100
+Age_threshold:         300
+Partitions:              0
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          3
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:         18
+Open tables:           11
+Open files:            25
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Memory status:
+Non-mmapped space allocated from system: 12877824
+Number of free chunks:                   55
+Number of fastbin blocks:                33
+Number of mmapped regions:               26
+Space in mmapped regions:                280973312
+Maximum total allocated space:           0
+Space available in freed fastbin blocks: 1888
+Total allocated space:                   8825808
+Total free space:                        4052016
+Top-most, releasable space:              135120
+Estimated memory (with thread stack):    295346176
+Global memory allocated by server:       274096672
+Memory allocated by threads:             129320
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:140
+LUA             : init_queue:150
+WOC             : NO
+Next activation : never

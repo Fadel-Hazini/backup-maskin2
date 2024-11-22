@@ -1,0 +1,44 @@
+[Thu Nov 07 14:57:47.240414 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:00:07.905217 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:01:15.354430 2024] [autoindex:error] [pid 29493:tid 140360135210752] [client 10.250.100.186:11433] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive
+[Thu Nov 07 15:01:16.246960 2024] [autoindex:error] [pid 29493:tid 140360118425344] [client 10.250.100.186:11433] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html,index.php) found, and server-generated directory index forbidden by Options directive
+[Thu Nov 07 15:03:37.108765 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:05:00.694259 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:08:19.703480 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:12:33.729216 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:17:21.540844 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:24:59.357116 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:25:34.656262 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:27:46.976447 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:29:24.978443 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:30:16.571195 2024] [ssl:warn] [pid 17923:tid 140361106610496] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:38:04.832888 2024] [proxy_fcgi:error] [pid 32535:tid 140360328111872] [client 10.250.100.186:11694] AH01071: Got error 'Primary script unknown'
+[Thu Nov 07 15:38:08.307102 2024] [proxy_fcgi:error] [pid 32535:tid 140360311326464] [client 10.250.100.186:11694] AH01071: Got error 'Primary script unknown'
+[Thu Nov 07 15:44:47.428766 2024] [ssl:warn] [pid 33063:tid 140626862016832] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:44:47.445892 2024] [ssl:warn] [pid 33063:tid 140626862016832] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:51:58.618934 2024] [ssl:warn] [pid 33063:tid 140626862016832] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:52:53.918566 2024] [ssl:warn] [pid 33727:tid 139745714157888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:52:53.935473 2024] [ssl:warn] [pid 33727:tid 139745714157888] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:59:08.570247 2024] [ssl:warn] [pid 34153:tid 139903895624000] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 15:59:08.587350 2024] [ssl:warn] [pid 34153:tid 139903895624000] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:12:50.439211 2024] [ssl:warn] [pid 34569:tid 140664584304960] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:12:50.456446 2024] [ssl:warn] [pid 34569:tid 140664584304960] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:16:55.541838 2024] [ssl:warn] [pid 34569:tid 140664584304960] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:17:47.913567 2024] [ssl:warn] [pid 35178:tid 139690683291968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:17:47.930613 2024] [ssl:warn] [pid 35178:tid 139690683291968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 16:23:07.005966 2024] [ssl:warn] [pid 35178:tid 139690683291968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 07 17:28:16.554139 2024] [ssl:warn] [pid 35178:tid 139690683291968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:36:29.091496 2024] [ssl:warn] [pid 45236:tid 139728321276224] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:36:29.108865 2024] [ssl:warn] [pid 45236:tid 139728321276224] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:39:46.899778 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:39:46.917465 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:40:53.238889 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:43:41.369215 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:46:50.582266 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:50:01.004047 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 13:53:04.125002 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 14:05:55.049117 2024] [ssl:warn] [pid 45570:tid 140669774633280] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 14:38:42.139109 2024] [ssl:warn] [pid 772:tid 140318487468352] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 14:38:42.280942 2024] [ssl:warn] [pid 772:tid 140318487468352] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 15:03:46.033952 2024] [ssl:warn] [pid 2755:tid 140124221655360] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 08 15:03:46.051207 2024] [ssl:warn] [pid 2755:tid 140124221655360] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name

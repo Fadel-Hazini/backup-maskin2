@@ -1,0 +1,11 @@
+12:37:29,128 INF librepo: Librepo version: 1.14.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.6/openssl/zlib nghttp2/1.33.0)
+12:37:29,181 INF librepo: Librepo version: 1.14.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.6/openssl/zlib nghttp2/1.33.0)
+12:37:43,816 INF librepo: Librepo version: 1.14.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.6/openssl/zlib nghttp2/1.33.0)
+12:37:43,838 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/Minimal/repodata/repomd.xml
+12:37:43,841 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/Minimal/repodata/1cb61ea996355add02b1426ed4c1780ea75ce0c04c5d1107c025c3fbd7d8bcae-primary.xml.gz
+12:37:43,841 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/Minimal/repodata/95a4415d859d7120efb6b3cf964c07bebbff9a5275ca673e6e74a97bcbfb2a5f-filelists.xml.gz
+12:37:43,841 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/Minimal/repodata/2b13cd3f9d81647fd31aa16de1b16b582efd9566f8c4334e4561a030f3777c37-comps-Minimal.x86_64.xml
+12:37:43,855 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/BaseOS/repodata/repomd.xml
+12:37:43,858 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/BaseOS/repodata/5a3a9e9fc6a304fdf3a12a4fc8f37fd4efd76524fcd808a060139147308d7a41-primary.xml.gz
+12:37:43,858 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/BaseOS/repodata/52d783ba77cd7c2907c95a39bfb33c0da0253c3da8619e2a321101d0aa5a4d72-filelists.xml.gz
+12:37:43,858 INF librepo: Downloading: file:///run/install/sources/mount-0000-hdd-device/BaseOS/repodata/71f62d6dadfbf3238ce701da43cb69958ce4c546cc370f92e70ba933f3193c23-comps-BaseOS.x86_64.xml
